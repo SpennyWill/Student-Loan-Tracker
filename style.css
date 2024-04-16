@@ -1,0 +1,30 @@
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+button[type="submit"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: rgb(224, 46, 46);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #010105;
+}
+
+#result {
+  margin-top: 20px;
+}
